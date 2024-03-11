@@ -49,7 +49,7 @@ En esta sección, compartiré los avances que he logrado mientras contribuyo al 
 Si tienes alguna pregunta o simplemente quieres charlar sobre el proyecto, no dudes en ponerte en contacto conmigo:
 
 - **Correo Electrónico:** spalominor@unal.edu.co
-- **LinkedIn:** Samuel Palomino 
+- **LinkedIn:** [Samuel Palomino](https://www.linkedin.com/in/samuel-palomino-9680352ba/)
 
 ¡Espero verte pronto contribuyendo a mi proyecto! 😊
 

@@ -4,7 +4,7 @@
 
 ## Acerca de mí
 
-¡Hola! Soy Samuel, un entusiasta de la programación que está emocionado/a de contribuir al proyecto Mu. Aquí hay un poco más sobre mí:
+¡Hola! Soy Samuel, un entusiasta de la programación que está emocionado/a de contribuir al mundo Open Source. Aquí hay un poco más sobre mí:
 
 - **Nombre:** Samuel Palomino Restrepo.
 - **Ubicación:** Medellín, Antioquia.

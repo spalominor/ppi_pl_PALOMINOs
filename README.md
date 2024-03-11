@@ -39,14 +39,14 @@ En esta sección, compartiré los avances que he logrado mientras contribuyo al 
 
 ## Cómo Contribuir
 
-¿Interesado/a en contribuir al proyecto Mu? ¡Genial! Aquí hay algunas formas en las que puedes ayudar:
+¿Interesado/a en contribuir al proyecto? ¡Genial! Aquí hay algunas formas en las que puedes ayudar:
 
-- **Reportar Problemas:** Si encuentras algún error o tienes una idea para una nueva característica, ¡no dudes en abrir un issue!
-- **Enviar Pull Requests:** ¿Tienes una corrección o una nueva característica que te gustaría agregar? ¡Envía un pull request y ayúdanos a mejorar Mu!
+- **Reportar Problemas:** Si encuentras algún error o tienes una idea que consideres que sea para mí, ¡no dudes en escribirme!
+- **Enviar Pull Requests:** ¿Tienes una corrección o una nueva característica que te gustaría agregar? ¡Contáctame explícandome tu sugerecia!
 
 ## Contacto
 
-Si tienes alguna pregunta o simplemente quieres charlar sobre el proyecto Mu, no dudes en ponerte en contacto conmigo:
+Si tienes alguna pregunta o simplemente quieres charlar sobre el proyecto, no dudes en ponerte en contacto conmigo:
 
 - **Correo Electrónico:** spalominor@unal.edu.co
 - **LinkedIn:** Samuel Palomino 

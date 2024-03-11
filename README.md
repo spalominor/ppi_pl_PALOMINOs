@@ -4,18 +4,19 @@
 
 ## Acerca de mí
 
-¡Hola! Soy Samuel, un entusiasta de la programación que está emocionado/a de contribuir al mundo Open Source. Aquí hay un poco más sobre mí:
+¡Hola! Soy Samuel, un entusiasta de la programación que está emocionado de contribuir al mundo Open Source. Aquí hay un poco más sobre mí:
 
 - **Nombre:** Samuel Palomino Restrepo.
 - **Ubicación:** Medellín, Antioquia.
-- **Experiencia en Programación:** Tengo conocimientos básicos en Python, JavaScript y SQL.
-- **Objetivo:** Deseo conseguir experiencia en el ámbito de la programación, conocer personas y trabajar en equipo con gente de diferentes lugares. Me gustaría conocer más ampliamente como funciona, se desarrolla y despliega una aplicación.
+- **Objetivo:** Deseo conseguir experiencia en el ámbito de la programación, conocer personas y trabajar en equipo con gente de diferentes lugares. Me gustaría conocer más ampliamente como funciona, se desarrolla y se despliega una aplicación.
+- **Información profesional:** Soy bachiller, actualmente estudiante de tercer semestre en el programa de Ingeniería de Sistemas e Informática en la Universidad Nacional - Sede Medellín. Tengo conocimientos básicos en Python, JavaScript, C# y SQL.
+- **Perfil:** Soy una persona en busca de conocimiento y experiencia. Me gusta el ambiente empresarial y de empredimiento. Trabajar en equipo, ser líder o ser liderado mietras aprendo.
 
 ## Proyectos
 
 ### Proyecto Mu - Editor de Python para Principiantes
 
-En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto Mu. Esto puede incluir nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
+En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto Mu. Este incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
 ### Avances
 

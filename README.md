@@ -14,7 +14,7 @@
 
 ## Proyectos
 
-### Proyecto Mu - Editor de Python para Principiantes <img src="https://codewith.mu/img/brand.png">
+### Proyecto Mu - Editor de Python para Principiantes    <p align="left"><img src="https://codewith.mu/img/brand.png">
 <img src="https://img.shields.io/badge/colaboracion-activa-green">
 
 En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto Mu. Este incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!

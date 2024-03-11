@@ -34,8 +34,8 @@ En esta sección, compartiré los avances que he logrado mientras contribuyo al 
 #### Avances
 
 ##### Avance 1
-- [Descripción breve de la contribución realizada]
-- [Enlace al pull request o commit relevante, si es aplicable]
+- Descripción breve de la contribución
+- Enlace al pull request o commit
 
 ## Cómo Contribuir
 

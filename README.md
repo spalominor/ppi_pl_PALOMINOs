@@ -19,9 +19,9 @@
 
 En esta sección, compartiré los avances que he logrado en la guía First Contributions. Este incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
-### Avances
+#### Avances
 
-#### Avance 1
+##### Avance 1
 - Añadirme como un contribuidor: Realizar el flujo de trabajo para contribuir en el open source fork -> clone -> edit -> pull request
 - https://github.com/firstcontributions/first-contributions/pull/82124
 
@@ -31,9 +31,9 @@ En esta sección, compartiré los avances que he logrado en la guía First Contr
 
 En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto Mu. Este incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
-### Avances
+#### Avances
 
-#### Avance 1
+##### Avance 1
 - [Descripción breve de la contribución realizada]
 - [Enlace al pull request o commit relevante, si es aplicable]
 

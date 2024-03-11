@@ -1,4 +1,4 @@
-# Open Source
+# Colaborador Open Source
 
 ¡Bienvenido/a a mi proyecto libre para Programación para Ingeniería!
 

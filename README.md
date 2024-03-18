@@ -23,7 +23,7 @@ En esta sección, compartiré los avances que he logrado en la guía First Contr
 
 ##### Avance 1
 - Añadirme como un contribuidor: Realizar el flujo de trabajo para contribuir en el open source fork -> clone -> edit -> pull request
-- [aquí](https://github.com/firstcontributions/first-contributions/pull/82124)
+- Pull request [aquí](https://github.com/firstcontributions/first-contributions/pull/82124)
 
 ### Proyecto ScribeData - Wikidata and Wikipedia language data extraction
 <img src="https://img.shields.io/badge/colaboracion-activa-green">

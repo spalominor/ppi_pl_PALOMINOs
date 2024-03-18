@@ -23,12 +23,12 @@ En esta sección, compartiré los avances que he logrado en la guía First Contr
 
 ##### Avance 1
 - Añadirme como un contribuidor: Realizar el flujo de trabajo para contribuir en el open source fork -> clone -> edit -> pull request
-- https://github.com/firstcontributions/first-contributions/pull/82124
+- [aquí](https://github.com/firstcontributions/first-contributions/pull/82124)
 
 ### Proyecto ScribeData - Wikidata and Wikipedia language data extraction
+<img src="https://img.shields.io/badge/colaboracion-activa-green">
 
 Scribe-Data contiene los scripts para extraer y formatear datos de Wikidata y Wikipedia para las aplicaciones de Scribe.
-<img src="https://img.shields.io/badge/colaboracion-activa-green">
 
 En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto ScribeData. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 

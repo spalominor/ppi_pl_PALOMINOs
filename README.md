@@ -25,17 +25,21 @@ En esta sección, compartiré los avances que he logrado en la guía First Contr
 - Añadirme como un contribuidor: Realizar el flujo de trabajo para contribuir en el open source fork -> clone -> edit -> pull request
 - https://github.com/firstcontributions/first-contributions/pull/82124
 
-### Proyecto Mu - Editor de Python para Principiantes https://codewith.mu/es/
-<img src="https://codewith.mu/img/brand.png">
+### Proyecto ScribeData - Wikidata and Wikipedia language data extraction
+<img src="">
 <img src="https://img.shields.io/badge/colaboracion-activa-green">
 
-En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto Mu. Este incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
+En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto ScribeData. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
 #### Avances
 
 ##### Avance 1
 - Descripción breve de la contribución
 - Enlace al pull request o commit
+
+ScribeData: Scribe-Data contiene los scripts para extraer y formatear datos de Wikidata y Wikipedia para las aplicaciones de Scribe.
+
+Trabajaré en este issue [aquí](https://github.com/scribe-org/Scribe-Data/issues/78)
 
 ## Cómo Contribuir
 

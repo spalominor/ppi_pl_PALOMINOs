@@ -27,6 +27,8 @@ En esta contribución, se identificó y solucionó un problema en el frontend de
 
 - Solución exitosa de un problema de despliegue en el frontend de la aplicación.
 - Mejora significativa en la experiencia de usuario al corregir el comportamiento del menú en diferentes dispositivos.
+- Aprendí y empecé a familiarizarme con Django y Tailwind.
+- Me integré bien en una comunidad que es muy activa.
 - Contribución al crecimiento y mejora continua del proyecto MyFinances.
 
 En resumen, esta primera colaboración implicó la solución efectiva de un problema en el frontend de la aplicación MyFinances, específicamente en la parte visual relacionada con el despliegue del menú. Después de la resolución del problema, te uniste como uno de los colaboradores del proyecto, según la indicación del líder del proyecto.

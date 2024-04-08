@@ -54,7 +54,7 @@ En esta contribución, se abordó un problema que afectaba la capacidad de los u
 - Se realizaron pruebas exhaustivas para verificar la funcionalidad correcta del ordenamiento en diferentes escenarios.
 - Se creó un nuevo Pull Request (PR) [#307](https://github.com/TreyWW/MyFinances/pull/307) para proponer los cambios al equipo de desarrollo.
 - Se colaboró con otros miembros del equipo para revisar y mejorar la calidad del código propuesto.
-- Una vez aprobado por los revisores, el PR fue fusionado con el repositorio principal del proyecto.
+- Una vez aprobado por los revisores, el PR será fusionado con el repositorio principal del proyecto.
 
 ### Logros
 

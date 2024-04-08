@@ -38,6 +38,8 @@ Trabajaré en este issue [aquí](https://github.com/scribe-org/Scribe-Data/issue
 ### Proyecto [MyFinances](https://github.com/TreyWW/MyFinances) - Web application that can help you to manage your finances
 <img src="https://img.shields.io/badge/colaboracion-activa-green">
 
+#### Contribuciones
+
 En esta [documento](https://github.com/spalominor/ppi_pl_PALOMINOs/blob/main/MyFinances.md), compartiré los avances que he logrado mientras contribuyo al proyecto MyFinances. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
 ## Cómo Contribuir

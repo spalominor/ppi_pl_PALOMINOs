@@ -50,26 +50,37 @@ En esta contribución, se abordó el problema relacionado con la imposibilidad d
 - Se realizaron pruebas exhaustivas en diferentes escenarios de ordenamiento para asegurar la funcionalidad correcta y la coherencia en la interfaz de usuario.
 - Se creó un Pull Request (PR) [#307](https://github.com/TreyWW/MyFinances/pull/307) para proponer los cambios al equipo de desarrollo.
 - Se colaboró con otros miembros del equipo para revisar y mejorar la calidad del código propuesto.
-- Una vez aprobado por los revisores, el PR fue fusionado con el repositorio principal del proyecto.
+- Una vez aprobado por los revisores, la propuesta de PR fue rechazada, me han hecho las observaciones y he estado trabajando pidiendo ayuda de otros contribuidores más experimentados.
 
 ### Logros
 
-- Implementación exitosa de la funcionalidad de ordenamiento ascendente/descendente en el backend y frontend de la aplicación.
-- Mejora significativa en la flexibilidad y usabilidad de la aplicación al permitir a los usuarios personalizar el orden de visualización de las facturas.
+- Mejora en mi conocimiento sobre el funcionamiento y despliegue de aplicaciones. Lecciones importantes sobre como funciona la conexión backend-frontend.
+- Aclaración de los concepto de una aplicación web, pues la PR podía funcionar en el entorno de desarrollador, pero no cuando esta versión estuviera en linea, pues el diccionario lo compartían todos los usuarios.
 - Contribución al desarrollo continuo y la mejora de la aplicación MyFinances.
-
 En resumen, esta segunda colaboración implicó la resolución de un problema relacionado con la funcionalidad de ordenamiento en la aplicación MyFinances, tanto en el backend como en el frontend. La implementación exitosa de esta funcionalidad proporciona a los usuarios la capacidad de alternar entre ordenar las facturas de manera ascendente o descendente, lo que mejora significativamente su experiencia de uso.
 
-## Colaboración 3: Creación de Issue
+## Contribución 3: Identificación de un Problema de Funcionamiento en la Aplicación
 
-- **Tarea:** Identificación de una nueva funcionalidad requerida.
-- **Issue Creado:** #127
+- **Issue Relacionado:** [#304](https://github.com/TreyWW/MyFinances/issues/304)
 
-### Mis Aportes
+### Descripción
 
-- Identifiqué la necesidad de una nueva funcionalidad después de utilizar la aplicación.
-- Documenté detalladamente los requisitos y casos de uso de la nueva funcionalidad.
+En esta contribución, detecté un problema de funcionamiento en la aplicación MyFinances después de obtener e iniciar mi entorno de desarrollo. El problema identificado afectaba a la capacidad de los usuarios para alternar entre ordenar las facturas de manera ascendente y descendente. Se observó que solo era posible ordenar las facturas en un sentido, lo que limitaba la funcionalidad de la aplicación.
 
-### Recursos Adicionales
+### Detalles de la Contribución
 
-- [Enlace al Issue](URL_del_Issue)
+- Se identificó el problema al probar el funcionamiento de la aplicación en mi entorno de desarrollo.
+- Se realizó un análisis exhaustivo del comportamiento de ordenamiento de las facturas para comprender la causa subyacente del problema.
+- Se creó un nuevo issue en el repositorio del proyecto (#304) para documentar y comunicar el problema al equipo de desarrollo.
+- Se proporcionaron detalles específicos sobre el comportamiento defectuoso y cómo afectaba la experiencia del usuario.
+- Se colaboró con otros miembros del equipo para discutir posibles soluciones y enfoques para abordar el problema.
+- Se monitoreó y participó activamente en la discusión del issue para proporcionar información adicional o aclaraciones según fuera necesario.
+
+### Logros
+
+- Identificación oportuna de un problema de funcionamiento en la aplicación MyFinances.
+- Contribución a la mejora continua de la calidad y funcionalidad de la aplicación.
+- Participación activa en el proceso de desarrollo colaborativo al reportar y documentar problemas.
+- Aprendizaje y comprensión más profunda del funcionamiento interno de la aplicación.
+
+En resumen, esta contribución implicó la detección y documentación de un problema de funcionamiento en la aplicación MyFinances, lo que permitió al equipo de desarrollo abordar el problema de manera oportuna y mejorar la experiencia del usuario.

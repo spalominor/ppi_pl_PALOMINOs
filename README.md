@@ -40,7 +40,7 @@ Trabajaré en este issue [aquí](https://github.com/scribe-org/Scribe-Data/issue
 
 #### Contribuciones
 
-En esta [documento](https://github.com/spalominor/ppi_pl_PALOMINOs/blob/main/MyFinances.md), compartiré los avances que he logrado mientras contribuyo al proyecto MyFinances. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
+En este [documento](https://github.com/spalominor/ppi_pl_PALOMINOs/blob/main/MyFinances.md), compartiré los avances que he logrado mientras contribuyo al proyecto MyFinances. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
 ## Cómo Contribuir
 

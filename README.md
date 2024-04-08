@@ -31,12 +31,9 @@ Scribe-Data contiene los scripts para extraer y formatear datos de Wikidata y Wi
 
 En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto ScribeData. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
-#### Avances
+#### Contribuciones
 
-##### Avance 1
-Trabajaré en este issue [aquí](https://github.com/scribe-org/Scribe-Data/issues/78)
-- Descripción breve de la contribución
-- Enlace al pull request o commit
+Trabajaré en este issue [aquí](https://github.com/scribe-org/Scribe-Data/issues/71)
 
 ### Proyecto [MyFinances](https://github.com/TreyWW/MyFinances) - Web application that can help you to manage your finances
 <img src="https://img.shields.io/badge/colaboracion-activa-green">

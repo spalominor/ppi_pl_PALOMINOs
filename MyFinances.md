@@ -33,26 +33,32 @@ En esta contribución, se identificó y solucionó un problema en el frontend de
 
 En resumen, esta primera colaboración implicó la solución efectiva de un problema en el frontend de la aplicación MyFinances, específicamente en la parte visual relacionada con el despliegue del menú. Después de la resolución del problema, te uniste como uno de los colaboradores del proyecto, según la indicación del líder del proyecto.
 
-## Colaboración 2: Resolución de Issue
+## Contribución 2: Implementación de Ordenamiento Ascendente/Descendente en el Backend y Frontend
 
-- **Tarea:** Solución de error de validación en el formulario de registro de usuarios.
-- **Issue Relacionado:** #125
-- **Pull Request (PR):** #126
+- **Issue Relacionado:** [#298](https://github.com/TreyWW/MyFinances/issues/298)
+- **Pull Request (PR):** [#307](https://github.com/TreyWW/MyFinances/pull/307)
 
-### Mis Aportes
+### Descripción
 
-- Identifiqué y corregí el error de validación en el formulario de registro de usuarios.
-- Probé exhaustivamente la solución para garantizar su eficacia.
+En esta contribución, se abordó el problema relacionado con la imposibilidad de alternar entre ordenar las facturas de manera ascendente o descendente en la aplicación MyFinances. El problema residía en la falta de funcionalidad para revertir el orden de las facturas una vez establecido, lo que limitaba la flexibilidad de los usuarios para ordenar y visualizar su información de manera personalizada. La contribución implicó modificaciones tanto en el backend como en el frontend para implementar esta funcionalidad deseada.
 
-### Códigos Relevantes
+### Detalles de la Contribución
 
-- **Frontend:** [Enlace al archivo HTML/JavaScript]
-- **Backend:** [Enlace al archivo Python/Django]
+- Se analizó el problema reportado en el issue #298 y se identificaron las áreas específicas del backend y el frontend que requerían modificaciones.
+- Se realizaron cambios en el código del backend para permitir la alternancia entre ordenamiento ascendente y descendente de las facturas.
+- Se implementaron ajustes en el código del frontend para reflejar los cambios en la interfaz de usuario y proporcionar opciones claras para alternar entre los modos de ordenamiento.
+- Se realizaron pruebas exhaustivas en diferentes escenarios de ordenamiento para asegurar la funcionalidad correcta y la coherencia en la interfaz de usuario.
+- Se creó un Pull Request (PR) [#307](https://github.com/TreyWW/MyFinances/pull/307) para proponer los cambios al equipo de desarrollo.
+- Se colaboró con otros miembros del equipo para revisar y mejorar la calidad del código propuesto.
+- Una vez aprobado por los revisores, el PR fue fusionado con el repositorio principal del proyecto.
 
-### Recursos Adicionales
+### Logros
 
-- [Enlace al Issue](URL_del_Issue)
-- [Enlace al PR](URL_del_PR)
+- Implementación exitosa de la funcionalidad de ordenamiento ascendente/descendente en el backend y frontend de la aplicación.
+- Mejora significativa en la flexibilidad y usabilidad de la aplicación al permitir a los usuarios personalizar el orden de visualización de las facturas.
+- Contribución al desarrollo continuo y la mejora de la aplicación MyFinances.
+
+En resumen, esta segunda colaboración implicó la resolución de un problema relacionado con la funcionalidad de ordenamiento en la aplicación MyFinances, tanto en el backend como en el frontend. La implementación exitosa de esta funcionalidad proporciona a los usuarios la capacidad de alternar entre ordenar las facturas de manera ascendente o descendente, lo que mejora significativamente su experiencia de uso.
 
 ## Colaboración 3: Creación de Issue
 

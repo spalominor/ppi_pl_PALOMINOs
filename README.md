@@ -19,9 +19,8 @@
 
 En esta sección, compartiré los avances que he logrado en la guía First Contributions. Este incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
-#### Avances
+#### Contribuciones
 
-##### Avance 1
 - Añadirme como un contribuidor: Realizar el flujo de trabajo para contribuir en el open source fork -> clone -> edit -> pull request
 - Pull request [aquí](https://github.com/firstcontributions/first-contributions/pull/82124)
 
@@ -42,7 +41,7 @@ Trabajaré en este issue [aquí](https://github.com/scribe-org/Scribe-Data/issue
 ### Proyecto [MyFinances](https://github.com/TreyWW/MyFinances) - Web application that can help you to manage your finances
 <img src="https://img.shields.io/badge/colaboracion-activa-green">
 
-En esta sección, compartiré los avances que he logrado mientras contribuyo al proyecto ScribeData. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
+En esta [documento](https://github.com/spalominor/ppi_pl_PALOMINOs/blob/main/MyFinances.md), compartiré los avances que he logrado mientras contribuyo al proyecto MyFinances. Esto incluirá nuevas características agregadas, problemas resueltos, mejoras de documentación y más. ¡Echa un vistazo a mis contribuciones!
 
 ## Cómo Contribuir
 

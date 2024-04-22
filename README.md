@@ -1,10 +1,10 @@
-# 🧑‍💻 ¡Tu FavCoder! 💻
+#  🧑‍💻 ¡Tu FavCoder! 💻
 
 Hola, Soy Samuel Palomino, y seré tu próximo programador favorito. Con mis habilidades en manejo y análisis de datos, así como en desarrollo web, estoy aquí para ayudarte a llevar tus proyectos al siguiente nivel.
 
 ## Índice 🗂️
 
-1. [Información Profesional](#Sobre-mí-)
+1. [Información Profesional](#sobre-mi-)
 2. [Contrátame](#contrátame-)
 3. [Mis Habilidades](#habilidades-)
 4. [Proyectos Destacados](#proyectos-destacados-)

@@ -43,7 +43,7 @@ Una aplicación básica de clima que te proporciona la temperatura promedio del 
 - [🚀 Aplicación Desplegada](https://climaapp.streamlit.app/)
 - [📂 Repositorio](https://github.com/spalominor/ClimaApp)
 
-### **🇺🇸 USPopulation**
+### **🗽 USPopulation**
 Un tablero interactivo que proporciona información sobre la población de cada estado de los Estados Unidos.
 - [🚀 Aplicación Desplegada](https://uspopulation.streamlit.app/)
 - [📂 Repositorio](https://github.com/spalominor/USPopulation)

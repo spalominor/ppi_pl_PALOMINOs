@@ -4,7 +4,7 @@ Hola, Soy Samuel Palomino, y seré tu próximo programador favorito. Con mis hab
 
 ## Índice 🗂️
 
-1. [Información Profesional](#sobre-mi-)
+1. [Información Profesional](#sobre-mí-)
 2. [Contrátame](#contrátame-)
 3. [Mis Habilidades](#habilidades-)
 4. [Proyectos Destacados](#proyectos-destacados-)
@@ -68,7 +68,7 @@ Si gustas contactarme, puedes encontrarme en:
 Si te gusta mi trabajo y quieres apoyarme, considera hacer una donación a través de Patreon o Buy Me a Coffee.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/spalominor)
-[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](patreon.com/OpenSamuel)
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/OpenSamuel)
 
 ¡Gracias por tu interés y espero trabajar juntos en emocionantes proyectos en el futuro! :rocket:
 

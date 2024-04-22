@@ -10,19 +10,16 @@
 4. [Contacto](#contacto)
 5. [Apoyo](#apoyo)
 
-## Información Profesional
+## Sobre mí
 
 - **Nombre:** Samuel Palomino
 - **Ciudad:** Medellín
-- **Estudios:** Estudiante de tercer semestre de Ingeniería de Sistemas
+- **Estudios:** Actualmente soy estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia, cursando tercer semestre.
 
-## Mis Habilidades
 
-- Python ![Python](https://img.shields.io/badge/-Python-blue)
-- Manejo y Análisis de Datos ![Pandas](https://img.shields.io/badge/-Pandas-green)
-- Desarrollo Web ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) 
-- MySQL ![MySQL](https://img.shields.io/badge/-MySQL-orange)
-- Matplotlib ![Matplotlib](https://img.shields.io/badge/-Matplotlib-lightgrey)
+- **Habilidades:** Tengo habilidades en lenguajes como Python, SQL y JavaScript. En especial el manejo de librerías como NumPy, Pandas, MatPlotLib, Seaborn, Geopandas, Scikit-Learn, y sus aplicaciones al Data Science. Asímismo, habilidades de desarrollo web con Django o Streamlit.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/SQL-3776AB?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"> <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib"> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn"> <img src="https://img.shields.io/badge/Geopandas-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Geopandas"> <img src="https://img.shields.io/badge/Scikit--Learn-3776AB?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
 
 ## Proyectos Destacados
 

@@ -26,10 +26,26 @@ Hola, Soy Samuel Palomino, y seré tu próximo programador favorito. Con mis hab
 
 ## Proyectos Destacados
 
-### **BuscaTuPelicula**: Una aplicación web que te ayuda a encontrar la película perfecta para tu noche de cine.
-### **ClimaApp**: Una aplicación básica de clima que te proporciona la temperatura promedio del mes de abril en todo el mundo.
-### **USPopulation**: Un tablero interactivo desplegado en una aplicación web que proporciona información sobre la población de cada estado de los Estados Unidos, desde 2010 hasta 2023.
-### **AnalisisDeVentas**: Un proyecto de análisis de ventas que te ayuda a comprender mejor el rendimiento de tu negocio y a tomar decisiones informadas.
+### **🎬 BuscaTuPelicula**
+Una aplicación web que te ayuda a encontrar información sobre tus películas favoritas.
+- [🚀 Aplicación Desplegada](https://buscatupelicula.streamlit.app/)
+- [📂 Repositorio](https://github.com/spalominor/BuscaTuPelicula)
+
+### **☁️ ClimaApp**
+Una aplicación básica de clima que te proporciona la temperatura promedio del mes de abril en todo el mundo.
+- [🚀 Aplicación Desplegada](climaapp.streamlit.app/)
+- [📂 Repositorio](https://github.com/spalominor/ClimaApp)
+
+### **🇺🇸 USPopulation**
+Un tablero interactivo que proporciona información sobre la población de cada estado de los Estados Unidos.
+- [🚀 Aplicación Desplegada](https://uspopulation.streamlit.app/)
+- [📂 Repositorio](https://github.com/spalominor/USPopulation)
+
+### **📊 AnalisisDeVentas**
+Un proyecto de análisis de ventas que te ayuda a comprender mejor el rendimiento de tu negocio.
+- [📚 Cuaderno de Análisis](https://colab.research.google.com/github/spalominor/AnalisisVentasSupermercado/blob/main/AnalisisVentas.ipynb)
+- [📂 Repositorio](https://github.com/spalominor/AnalisisVentasSupermercado)
+
 
 ## Contacto
 

@@ -4,12 +4,12 @@ Hola, Soy Samuel Palomino, y seré tu próximo programador favorito. Con mis hab
 
 ## Índice 🗂️
 
-1. [Información Profesional](#sobre-mí-)
-2. [Contrátame](#contrátame-)
-3. [Mis Habilidades](#habilidades-)
-4. [Proyectos Destacados](#proyectos-destacados-)
-5. [Contacto](#contacto-)
-6. [Apóyame](#quieres-apoyarme-)
+1. [Información Profesional 👨‍🎓](#sobre-mí-)
+2. [Contrátame 🤝](#contrátame-)
+3. [Mis Habilidades 💪](#habilidades-)
+4. [Proyectos Destacados 💼](#proyectos-destacados-)
+5. [Contacto 🤳](#contacto-)
+6. [Apóyame 💸](#quieres-apoyarme-)
 
 ## Sobre mí 🌠
 

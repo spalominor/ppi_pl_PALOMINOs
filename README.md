@@ -40,7 +40,7 @@ Una aplicación web que te ayuda a encontrar información sobre tus películas f
 
 ### **☁️ ClimaApp**
 Una aplicación básica de clima que te proporciona la temperatura promedio del mes de abril en todo el mundo.
-- [🚀 Aplicación Desplegada](climaapp.streamlit.app/)
+- [🚀 Aplicación Desplegada](https://climaapp.streamlit.app/)
 - [📂 Repositorio](https://github.com/spalominor/ClimaApp)
 
 ### **🇺🇸 USPopulation**

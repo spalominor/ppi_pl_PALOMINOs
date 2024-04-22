@@ -1,6 +1,6 @@
 # ¡Bienvenido a FavCoder! :computer:
 
-¡Hola! Soy Samuel Palomino, y seré tu próximo programador favorito. Soy de Medellín y actualmente soy estudiante de tercer semestre de Ingeniería de Sistemas. Con habilidades en manejo y análisis de datos, así como en desarrollo web, estoy aquí para ayudarte a llevar tus proyectos al siguiente nivel.
+Hola, Soy Samuel Palomino, y seré tu próximo programador favorito. Con mis habilidades en manejo y análisis de datos, así como en desarrollo web, estoy aquí para ayudarte a llevar tus proyectos al siguiente nivel.
 
 ## Índice
 
@@ -16,12 +16,13 @@
 - **Ciudad:** Medellín
 - **Estudios:** Actualmente soy estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia, cursando tercer semestre.
 
+[![Fiverr](https://img.shields.io/badge/Fiverr-1dbf73?style=for-the-badge&logo=fiverr&logoColor=white)](https://es.fiverr.com/spalominor)
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~017a73d95d293c0721?mp_source=share)
+[![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white)](https://www.freelancer.com.co/u/spalominor)
 
 - **Habilidades:** Tengo habilidades en lenguajes como Python, SQL y JavaScript. En especial el manejo de librerías como NumPy, Pandas, MatPlotLib, Seaborn, Geopandas, Scikit-Learn, y sus aplicaciones al Data Science. Asímismo, habilidades de desarrollo web con Django o Streamlit.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/SQL-3776AB?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"> <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib"> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn"> <img src="https://img.shields.io/badge/Geopandas-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Geopandas"> <img src="https://img.shields.io/badge/Scikit--Learn-3776AB?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/1200px-NumPy_logo.svg.png" alt="NumPy" width="100" height="100"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" alt="Pandas" width="100" height="100"> <img src="https://matplotlib.org/stable/_static/logo2_compressed.svg" alt="Matplotlib" width="100" height="100"> <img src="https://seaborn.pydata.org/_images/logo-wide-lightbg.svg" alt="Seaborn" width="100" height="100"> <img src="https://geopandas.org/en/stable/_images/geopandas_logo.png" alt="Geopandas" width="100" height="100"> <img src="https://scikit-learn.org/stable/_images/scikit-learn-logo-notext.png" alt="Scikit-Learn" width="100" height="100">
 
 ## Proyectos Destacados
 

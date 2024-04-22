@@ -9,7 +9,7 @@ Hola, Soy Samuel Palomino, y seré tu próximo programador favorito. Con mis hab
 3. [Mis Habilidades](#habilidades-)
 4. [Proyectos Destacados](#proyectos-destacados-)
 5. [Contacto](#contacto-)
-6. [Apóyame](#¿quieres-apoyarme?-)
+6. [Apóyame](#quieres-apoyarme-)
 
 ## Sobre mí 🌠
 

@@ -17,7 +17,7 @@ Población estimada de los Estados Unidos de América por estado desde 2010 hast
 
 3. **Visualización en el Panel:** Después de procesar los datos, se muestra un panel interactivo que incluye el mapa de calor de los Estados Unidos con la distribución de la población, junto con información relevante como el crecimiento poblacional, el crecimiento porcentual, el estado con mayor crecimiento y decrecimiento, y un DataFrame con información detallada de la población de todos los estados.
 
-## ¿Qué hay en el repositorio?
+## ¿Qué hay en la carpeta?
 
 - limpiar_datos.py: En este archivo se limpian los datos y se crea un [archivo nuevo](https://github.com/spalominor/USPopulation/blob/main/us-population.csv) a partir de los csv de la población obtenidos de la pagína web [Census](https://www.census.gov/).
 - utils.py: Contiene un diccionario y una lista útil para limpiar y organizar los datos

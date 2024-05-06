@@ -1,6 +1,6 @@
 #  🧑‍💻 ¡Tu FavCoder! 💻
 
-Hola, Soy Samuel Palomino, y seré tu próximo programador favorito. Con mis habilidades en manejo y análisis de datos, así como en desarrollo web, estoy aquí para ayudarte a llevar tus proyectos al siguiente nivel.
+Hola, Soy Samuel Palomino. Con mis habilidades en manejo y análisis de datos, así como en desarrollo web, estoy aquí para ser el programador que lleve tus proyectos al siguiente nivel.
 
 ## Índice 🗂️
 
@@ -43,7 +43,7 @@ Una aplicación básica de clima que te proporciona la temperatura promedio del 
 - [🚀 Aplicación Desplegada](https://climaapp.streamlit.app/)
 - [📂 Repositorio](https://github.com/spalominor/ClimaApp)
 
-### **🇺🇸 USPopulation**
+### **🗽 USPopulation**
 Un tablero interactivo que proporciona información sobre la población de cada estado de los Estados Unidos.
 - [🚀 Aplicación Desplegada](https://uspopulation.streamlit.app/)
 - [📂 Repositorio](https://github.com/spalominor/USPopulation)

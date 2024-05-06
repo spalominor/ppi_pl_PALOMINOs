@@ -1,0 +1,174 @@
+---
+// Importar la función necesaria para manejar la sesión del usuario
+import { getSession } from 'auth-astro/server';
+
+// Importar las entidades necesarias para interactuar con la base de datos
+import { db } from 'astro:db';
+import { User } from 'astro:db';
+import { like } from 'astro:db';
+
+// Importar la función necesaria para obtener un usuario por su correo 
+import { getUserByEmail } from './utils/db';
+
+// Importar los iconos de la carpeta components/icons
+import ChevronDown from './icons/Chevrone-down.astro';
+
+
+
+/**
+ * Maneja la sesión del usuario.
+ */
+const session = await getSession(Astro.request);
+
+// Si el usuario no existe, guardaren la base de datos
+if (session && session.user?.email && session.user?.name) {
+    const res = await getUserByEmail(session.user.email);
+
+    if (res.success && !res.data) {
+        await db.insert(User).values({
+            email: session.user.email,
+            name: session.user.name,
+        });
+    }
+}
+
+---
+
+/**
+ * Componente para el encabezado de la página.
+ */
+<header>
+    {session ? (
+        <div id="dropdown-menu">
+            <div id="dropdown-label">
+                <span>
+                    {session.user?.name
+                        ? session.user?.name.split(' ')[0]
+                        : ' '}
+                </span>
+                <span id="chevron">
+                    <ChevronDown width="24" heigt="24" />
+                </span>
+            </div>
+
+            <div id="dropdown-content">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/my-urls">Ver mis URLs</a>
+                        </li>
+                        <li>
+                            <button id="logout">Logout</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    ) : (
+        <div>
+            <button id="login">Login</button>
+        </div>
+    )}
+</header>
+
+/**
+ * Estilos para el encabezado de la página.
+ */
+<style>
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        background-color: transparent;
+    }
+
+    #login {
+        color: #088f62;
+    }
+
+    #login:hover {
+        color: #3fd690;
+    }
+
+    #dropdown-menu {
+        position: relative;
+    }
+
+    #dropdown-label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        width: fit-content;
+        gap: 0.3rem;
+        color: white;
+    }
+
+    #chevron {
+        display: flex;
+        align-items: center;
+    }
+
+    #dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: white;
+        color: black;
+        width: 200px;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+
+    #dropdown-menu:hover #dropdown-content {
+        display: block;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a, button {
+        font-size: 1.2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+         sans-serif;
+        font-weight: 500;
+    }
+
+    a:hover, button:hover {
+        color: gray;
+    }
+</style>
+
+<script>
+    // Importar las funciones signIn y signOut del cliente de autenticación
+    const { signIn, signOut } = await import("auth-astro/client");
+
+    // Seleccionar el botón de login
+    const login = document.querySelector("#login") as HTMLButtonElement;
+
+    // Manejar el evento click en el botón de login
+    if (login) {
+        login.onclick = () => signIn("google");
+    }
+
+    // Seleccionar el botón de logout
+    const logout = document.querySelector("#logout") as HTMLButtonElement;
+
+    // Manejar el evento click en el botón de logout
+    if (logout) {
+        logout.onclick = () => signOut();
+    }
+</script>

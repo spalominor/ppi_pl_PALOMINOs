@@ -1,0 +1,81 @@
+---
+// Importar el componente visual del Header.
+import Header from '../components/Header.astro';
+
+// Importar el componente visual de las notificaciones.
+import { Toaster } from 'sonner';
+
+/**
+ * Interfaz para las propiedades del componente Layout.
+ */
+interface Props {
+    title: string; // El título de la página
+}
+
+/**
+ * Extrae el título de las propiedades de Astro.
+ */
+const { title } = Astro.props;
+---
+
+/**
+ * Componente Layout para la estructura básica de las páginas.
+ * @param title El título de la página.
+ * @returns La estructura básica de la página con el título especificado.
+ */
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<main>
+			<slot />
+		</main>
+		<Toaster richColors client:only/>
+	</body>
+</html>
+
+/**
+ * Estilos globales para la aplicación.
+ */
+<style is:global>
+	:root {
+
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background: #13151a;
+		background-size: 224px;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+	main {
+		color: white;
+		width: 1000px;
+		padding: 1rem;
+		margin: auto;
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	h1 {
+		font-size: 4rem;
+		text-align: center;
+		margin-bottom: 1rem;
+		line-height: 1;
+	}
+</style>

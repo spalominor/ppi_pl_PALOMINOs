@@ -1,0 +1,85 @@
+---
+import ShorterURLReact from './ShorterURL'
+import { getSession } from 'auth-astro/server'
+import { getUserByEmail } from './utils/db'
+
+const session = await getSession(Astro.request)
+
+let userId: number | undefined
+if (session && session.user?.email) {
+    const res = await getUserByEmail(session.user.email)
+    if (res.success && res.data) {
+        userId = res.data.id
+    }
+}
+
+---
+
+<section>
+    <ShorterURLReact userId={userId} client:load />
+</section>
+
+<style is:global>
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    #shorter-url-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .shorter-url-form-input {
+        padding: 0.5rem;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1.1rem;
+    }
+
+    .shorter-url-form-button {
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        background-color: #088f62;
+
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .shorter-url-form-button:hover {
+        background-color: #3fd690;
+    }
+
+    .shorter-url-form-copy-button {
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        background-color: #088f62;
+
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .shorter-url-form-copy-button:hover {
+        background-color: #3fd690;
+    }
+
+    .shorter-url-form-error {
+        color: red;
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+
+</style>

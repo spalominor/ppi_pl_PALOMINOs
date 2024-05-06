@@ -2,15 +2,16 @@
 
 Minilink es una aplicación web que te permite acortar URLs de forma rápida y sencilla. Con Minilink, puedes convertir URLs largas en enlaces cortos que son más fáciles de compartir, recordar y almacenar.
 
+## ¿Cómo funciona?
+
+Minilink utiliza un algoritmo de acortamiento de URLs para generar enlaces cortos a partir de URLs largas. Cuando un usuario ingresa una URL en el sitio web de Minilink, el sistema genera automáticamente un código aleatorio único para esa URL. Este enlace corto redirige a la URL original cuando se hace clic en él.
+
 ## Funcionalidades
 
 - Acortamiento de URLs: Minilink permite a los usuarios ingresar una URL larga y generar un enlace corto correspondiente.
 - Copia fácil: Los enlaces cortos generados por Minilink pueden copiarse fácilmente al portapapeles con solo un clic.
 - Seguimiento de URLs: Los usuarios pueden acceder a un panel de control para ver todas las URLs que han acortado y realizar un seguimiento de su uso.
 
-## ¿Cómo funciona?
-
-Minilink utiliza un algoritmo de acortamiento de URLs para generar enlaces cortos a partir de URLs largas. Cuando un usuario ingresa una URL en el sitio web de Minilink, el sistema genera automáticamente un código aleatorio único para esa URL. Este enlace corto redirige a la URL original cuando se hace clic en él.
 
 # Tecnologías y Lenguajes de Programación Utilizados
 

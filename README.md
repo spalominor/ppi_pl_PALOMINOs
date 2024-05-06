@@ -33,13 +33,18 @@ Hola, Soy Samuel Palomino. Con mis habilidades en manejo y análisis de datos, a
 
 ## Proyectos Destacados 📋
 
+### **📏 MiniLink 🔗**
+Una aplicación web que te ayuda a acortar las URLs que prefieras.
+- - [🚀 Aplicación Desplegada](https://minilink-snowy-feather-6817.fly.dev/)
+- [📂 Repositorio](https://github.com/spalominor/MiniLink)
+- 
 ### **🎬 BuscaTuPelicula**
 Una aplicación web que te ayuda a encontrar información sobre tus películas favoritas.
 - [🚀 Aplicación Desplegada](https://buscatupelicula.streamlit.app/)
 - [📂 Repositorio](https://github.com/spalominor/BuscaTuPelicula)
 
 ### **☁️ ClimaApp**
-Una aplicación básica de clima que te proporciona la temperatura promedio del mes de abril en todo el mundo.
+Una aplicación web básica de clima que te proporciona la temperatura promedio del mes de abril en todo el mundo.
 - [🚀 Aplicación Desplegada](https://climaapp.streamlit.app/)
 - [📂 Repositorio](https://github.com/spalominor/ClimaApp)
 
@@ -50,7 +55,7 @@ Un tablero interactivo que proporciona información sobre la población de cada 
 
 ### **📊 AnalisisDeVentas**
 Un proyecto de análisis de ventas que te ayuda a comprender mejor el rendimiento de tu negocio.
-- [📚 Cuaderno de Análisis](https://colab.research.google.com/github/spalominor/AnalisisVentasSupermercado/blob/main/AnalisisVentas.ipynb)
+- [📚 Cuaderno de Análisis](https://github.com/spalominor/AnalisisVentasSupermercado/blob/main/AnalisisVentas.ipynb)
 - [📂 Repositorio](https://github.com/spalominor/AnalisisVentasSupermercado)
 
 
@@ -62,6 +67,7 @@ Si gustas contactarme, puedes encontrarme en:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-palomino-9680352ba/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spalominor)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/23651826/spalominor)
+[![Reddit](https://img.shields.io/badge/Reddit-FF5700?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/Common_Priority_6917/)
 
 ## ¿Quieres Apoyarme? 💰
 

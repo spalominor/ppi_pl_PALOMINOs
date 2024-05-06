@@ -35,9 +35,9 @@ Hola, Soy Samuel Palomino. Con mis habilidades en manejo y análisis de datos, a
 
 ### **📏 MiniLink 🔗**
 Una aplicación web que te ayuda a acortar las URLs que prefieras.
-- - [🚀 Aplicación Desplegada](https://minilink-snowy-feather-6817.fly.dev/)
+- [🚀 Aplicación Desplegada](https://minilink-snowy-feather-6817.fly.dev/)
 - [📂 Repositorio](https://github.com/spalominor/MiniLink)
-- 
+
 ### **🎬 BuscaTuPelicula**
 Una aplicación web que te ayuda a encontrar información sobre tus películas favoritas.
 - [🚀 Aplicación Desplegada](https://buscatupelicula.streamlit.app/)

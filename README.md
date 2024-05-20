@@ -4,6 +4,9 @@ Hola, Soy Samuel Palomino. Con mis habilidades en manejo y análisis de datos, a
 
 [Mi portafolio aquí](https://spalominor.fly.dev)
 
+![Portafolio](https://github.com/spalominor/ppi_pl_PALOMINOs/assets/159827322/e8eb42a9-01b8-49ef-9828-d0aafa15aa45)
+
+
 ## Índice 🗂️
 
 1. [Información Profesional 👨‍🎓](#sobre-mí-)

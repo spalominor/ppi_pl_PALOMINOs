@@ -1,6 +1,10 @@
-# Portafolio de Samuel Palomino
+# [Portafolio de Samuel Palomino](https://spalominor.fly.dev/)
 
 Este repositorio el alberga los códigos con los que desarrolle mi portafolio web para el ámbito profesional.
+
+![Portafolio](https://github.com/spalominor/ppi_pl_PALOMINOs/assets/159827322/c8a4f85b-de94-4971-8260-0d837c66b77f)
+
+Link 🔗: https://spalominor.fly.dev/
 
 ## Descripción
 

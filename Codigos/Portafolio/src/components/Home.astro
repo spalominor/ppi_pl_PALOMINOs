@@ -1,0 +1,85 @@
+---
+// Importación de componentes y recursos necesarios
+// Importa el componente Badge
+import Badge from '../components/Badge.astro'; 
+
+// Importa el componente SocialPill
+import SocialPill from '../components/SocialPill.astro'; 
+
+// Importa el icono de LinkedIn
+import LinkedInIcon from '../components/icons/LinkedIn.astro'; 
+
+// Importa el icono de GitHub
+import GitHubIcon from '../components/icons/GitHub.astro'; 
+
+// Importa el icono de Twitter
+import TwitterIcon from '../components/icons/Twitter.astro'; 
+
+// Importa el icono de Correo Electrónico
+import MailIcon from '../components/icons/Mail.astro'; 
+
+
+// Imagen personal
+// URL de la imagen personal
+const photoUrl = "my-photo.jpeg"; 
+// Texto alternativo si no se carga la imagen personal
+const photoAlt = "Samuel's photo"; 
+---
+
+<!-- Imagen personal -->
+<img 
+    class="rounded-full size-24 mb-6"
+    src={photoUrl} 
+    alt={photoAlt}
+/>
+
+<!-- Título principal -->
+<h1 
+    class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+    Hola, soy Samuel 
+        <!-- Enlace al perfil de LinkedIn con badge de "Disponible para trabajar" -->
+        <a 
+            href="https://www.linkedin.com/in/spalominor/"
+            target="_blank"
+            class="flex justify-center items-center"
+            rel="noopener noreferrer"
+            >
+            <Badge>Disponible para trabajar</Badge>
+        </a>
+</h1>
+
+<!-- Subtítulo -->
+<h2 class="text-2xl text-wrap">
+    Estudiante de Ingeniería de Sistemas e Informática
+    <!-- Texto adicional sobre especialización y ubicación -->
+    <span class="text-blue-200/90">
+        Especializado en el desarrollo de aplicaciones web y la Ciencia de Datos. 
+    </span>
+    <span>
+        Medellín, Colombia 🇨🇴.
+    </span>
+</h2>
+
+<!-- Barra de navegación de redes sociales -->
+<nav class="flex gap-3 mt-8">
+    <!-- Enlace a LinkedIn -->
+    <SocialPill href="https://www.linkedin.com/in/spalominor/">
+        LinkedIn
+        <LinkedInIcon />
+    </SocialPill>
+    <!-- Enlace a GitHub -->
+    <SocialPill href="https://www.github.com/spalominor">
+        GitHub
+        <GitHubIcon />
+    </SocialPill>
+    <!-- Enlace a Twitter -->
+    <SocialPill href="https://www.twitter.com/spalominor">
+        Twitter
+        <TwitterIcon />
+    </SocialPill>
+    <!-- Enlace por correo electrónico -->
+    <SocialPill href="mailto:spalominor@unal.edu.co">
+        Email
+        <MailIcon />
+    </SocialPill>
+</nav>

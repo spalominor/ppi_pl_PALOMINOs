@@ -1,0 +1,40 @@
+---
+// Definición de las propiedades que se recibirán en el componente
+const { date, title, description, links } = Astro.props
+
+// Definición de la interfaz para el tipo de datos de los enlaces
+interface Link {
+    title: string // Título del enlace
+    url: string // URL del enlace
+    icon: any // Icono del enlace
+}
+---
+
+<!-- Divisor de puntos -->
+<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+
+<!-- Fecha de la experiencia -->
+<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{date}</time>
+
+<!-- Título de la experiencia -->
+<h3 class="text-lg font-semibold text-blue-200/90 dark:text-white">{title}</h3>
+
+<!-- Descripción de la experiencia -->
+<p class="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">{description}</p>
+
+<!-- Lista de enlaces relacionados -->
+<ul class="flex flex-row mb-2 gap-x-4">
+    {
+        // Iteración sobre la lista de enlaces y renderizado de cada enlace 
+        // como un elemento de lista
+        links.map((link: Link) => (
+            <a 
+                href={link.url} 
+                class="inline-flex px-4 py-2 gap-x-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:scale-105 transition hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+            >
+                <link.icon class="size-4 flex"/>
+                {link.title} 
+            </a>
+        ))
+    }
+</ul>

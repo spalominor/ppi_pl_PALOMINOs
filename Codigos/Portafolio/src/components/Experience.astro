@@ -1,0 +1,70 @@
+---
+// Importación de componentes de Astro y definición de datos
+// Importa el componente ExperienceItem
+import ExperienceItem from "./ExperienceItem.astro"; 
+
+// Importa el icono de Upwork
+import UpworkIcon from "./icons/Upwork.astro"; 
+
+// Importa el icono de Fiverr
+import FiverrIcon from "./icons/Fiverr.astro"; 
+
+// Importa el icono de Freelancer
+import FreelancerIcon from "./icons/Freelancer.astro"; 
+
+// Importa el icono de la Universidad
+import UniversityIcon from "./icons/University.astro"; 
+
+
+// Definición de constantes TAGS o botones de enlaces
+const TAGS = {
+    UPWORK: {
+        title: 'Upwork',
+        url: 'https://www.upwork.com/freelancers/~017a73d95d293c0721',
+        icon: UpworkIcon,
+    },
+    FIVERR: {
+        title: 'Fiverr',
+        url: 'https://www.fiverr.com/spalominor',
+        icon: FiverrIcon,
+    },
+    FREELANCER: {
+        title: 'Freelancer',
+        url: 'https://www.freelancer.com/u/spalominor',
+        icon: FreelancerIcon,
+    },
+    UNIVERSITY: {
+        title: 'Universidad Nacional',
+        url: 'https://minas.medellin.unal.edu.co/formacion/pregrado/ingenieriadesistemas',
+        icon: UniversityIcon,
+    },
+}
+
+// Definición de la constante EXPERIENCE con la información de las experiencia
+const EXPERIENCE = [
+    {
+        date: 'Febrero 2024 - Actualmente...',
+        title: 'Desarrollador Freelance',
+        description: 'Actualmente me encuentro trabajando como desarrollador freelance, realizando proyectos de desarrollo de aplicaciones. Si deseas conocer más, aquí mis perfiles.',
+        links: [TAGS.UPWORK, TAGS.FIVERR, TAGS.FREELANCER],
+    },
+    {
+        date: 'Febrero 2023 - Actualmente...',
+        title: 'Estudiante de la Universidad Nacional',
+        description: 'Desde el año 2023 soy estudiante de la Universidad Nacional de Colombia, en la carrera de Ingeniería de Sistemas e Informática.',
+        links: [TAGS.UNIVERSITY],
+    },
+];
+---
+
+<ol class="relative border-s border-blue-400 dark:border-gray-700">
+    {
+        // Iteración sobre la lista de experiencias y renderizado de cada 
+        // experiencia como un elemento de lista
+        EXPERIENCE.map(experience => (
+            <li class="mb-10 ms-8">
+                <ExperienceItem {...experience} /> 
+            </li>
+        ))
+    }            
+</ol>

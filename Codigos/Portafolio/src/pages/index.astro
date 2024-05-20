@@ -1,0 +1,123 @@
+---
+// Importaciones de componentes y iconos
+// Importa el diseño o lienzo principal de la página
+import Layout from '../layouts/Layout.astro';
+
+// Icono de código para la sección de proyectos
+import CodeIcon from '../components/icons/Code.astro';
+
+// Icono de maletín para la sección de experiencia
+import BriefcaseIcon from '../components/icons/Briefcase.astro';
+
+// Icono de usuario de código para la sección "Sobre mí"
+import UserCodeIcon from '../components/icons/UserCode.astro';
+
+// Componente de proyectos ya creado en la carpeta components
+import Projects from '../components/Projects.astro';
+
+// Componente de "Sobre mí" ya creado en la carpeta components
+import About from '../components/About.astro';
+
+// Componente de experiencia ya creado en la carpeta components
+import Experience from '../components/Experience.astro'; 
+
+// Componente de inicio o de presentación de la página
+import Home from '../components/Home.astro'; 
+
+// Componente para contener cada una de las secciones de la página
+import SectionContainer from '../components/SectionContainer.astro'; 
+---
+<!-- Importar el lienzo principal -->
+<Layout 
+  title="Portafolio de Samuel Palomino"
+  description="Desarrollador de aplicaciones web y Ciencia de Datos. Estudiante de Ingeniería de Sistemas e Informática. De Medellín, Colombia."
+>
+  <!-- Sección principal de la página -->
+  <main>
+	<!-- Crear un contenedor para importar la presentación -->
+    <SectionContainer class="py-44">
+      <Home />
+    </SectionContainer>
+
+	<!-- Crear una sección para importar los proyectos -->
+    <SectionContainer class="py-20" id="proyectos">
+      <h2 class="flex items-center mb-12 text-3xl font-semibold gap-x-3 text-white/80 dark:text-white">
+        <CodeIcon class="size-7" />
+        Proyectos
+      </h2>
+      <Projects />
+    </SectionContainer>
+
+	<!-- Crear una sección para importar la experiencia -->
+    <SectionContainer class="py-20" id="experiencia">
+      <h2 class="flex items-center mb-12 text-3xl font-semibold gap-x-3 text-white/80 dark:text-white">
+        <BriefcaseIcon class="size-7" />
+        Experiencia
+      </h2>
+      <Experience />
+    </SectionContainer>
+
+	<!-- Crear una sección para importar la información personal -->
+    <SectionContainer id="about">
+      <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-white/80 dark:text-white">
+        <UserCodeIcon class="size-8" />
+        Sobre mí
+      </h2>
+      <About />
+    </SectionContainer>
+  </main>
+</Layout>
+
+<style>
+  /* Estilos globales de CSS para la vista y los componentes*/
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .astro-a {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 220px;
+    height: auto;
+    z-index: -1;
+  }
+  h1 {}
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+  .instructions {
+    margin-bottom: 2rem;
+    border: 1px solid rgba(var(--accent-light), 25%);
+    background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  .instructions code {
+    font-size: 0.8em;
+    font-weight: bold;
+    background: rgba(var(--accent-light), 12%);
+    color: rgb(var(--accent-light));
+    border-radius: 4px;
+    padding: 0.3em 0.4em;
+  }
+  .instructions strong {
+    color: rgb(var(--accent-light));
+  }
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 2rem;
+    padding: 0;
+  }
+</style>

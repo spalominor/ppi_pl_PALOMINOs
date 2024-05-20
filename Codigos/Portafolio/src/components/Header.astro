@@ -1,0 +1,49 @@
+---
+// Definición de los elementos de navegación con 
+// el titulo, URL y etiqueta de accesibilidad
+const navItems = [
+  {
+    title: "Inicio",
+    url: "/",
+    label: "Inicio",
+  },
+  {
+    title: "Proyectos",
+    url: "/#proyectos",
+    label: "Proyectos",
+  },
+  {
+    title: "Experiencia",
+    url: "/#experiencia",
+    label: "Experiencia",
+  },
+  {
+    title: "Sobre mí",
+    url: "/#about",
+    label: "Sobre mí",
+  },
+];
+---
+
+<header
+  class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2"
+>
+  <nav
+    class="flex px-3 font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center"
+  >
+    {
+      // Iteración sobre los elementos de navegación y renderizado de 
+      // cada enlace como un elemento "a"
+      navItems.map((link) => (
+        <a
+          class="relative block px-2 py-2 transition hover:text-blue-300 dark:hover:text-blue-300"
+          aria-label={link.label} 
+          href={link.url} 
+        >
+          {/* Texto del enlace */}
+          {link.title} 
+        </a>
+      ))
+    }
+  </nav>
+</header>

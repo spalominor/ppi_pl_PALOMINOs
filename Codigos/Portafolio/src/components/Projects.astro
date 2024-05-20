@@ -1,0 +1,150 @@
+---
+// Importar los iconos para las etiquetas desde components/icons
+import GitHub from "./icons/GitHub.astro"
+import AstroIcon from "./icons/Astro.astro"
+import ReactIcon from "./icons/React.astro"
+import TypeScriptIcon from "./icons/TypeScript.astro"
+import PythonIcon from "./icons/Python.astro"
+import PandasIcon from "./icons/Pandas.astro"
+import StreamlitIcon from "./icons/Streamlit.astro"
+import DjangoIcon from "./icons/Django.astro"
+import TailwindIcon from "./icons/Tailwind.astro"
+import Link from "./icons/Link.astro"
+
+// Importar el componente LinkButton para redireccionar al proyecto
+import LinkButton from "./LinkButton.astro"
+
+// Definir las etiquetas que pueden tener los proyectos
+// Cada etiqueta tiene un nombre, una clase para el color de fondo y un icono
+const TAGS = {
+  ASTRO: {
+    name: "Astro",
+    class: "bg-[#003159] text-white",
+    icon: AstroIcon,
+  },
+  REACT: {
+    name: "React",
+    class: "bg-[#003159] text-white",
+    icon: ReactIcon,
+  },
+  TYPESRCIPT: {
+    name: "TypeScript",
+    class: "bg-[#003159] text-white",
+    icon: TypeScriptIcon,
+  },
+  PYTHON: {
+    name: "Python",
+    class: "bg-[#003159] text-white",
+    icon: PythonIcon,
+  },
+  PANDAS: {
+    name: "Pandas",
+    class: "bg-[#003159] text-white",
+    icon: PandasIcon,
+  },
+  STREAMLIT: {
+    name: "Streamlit",
+    class: "bg-[#003159] text-white",
+    icon: StreamlitIcon,
+  },
+  DJANGO: {
+    name: "Django",
+    class: "bg-[#003159] text-white",
+    icon: DjangoIcon,
+  },
+  TAILWIND: {
+    name: "Tailwind",
+    class: "bg-[#003159] text-white",
+    icon: TailwindIcon
+  }
+}
+
+// Definir los proyectos con su título, descripción, enlace, imagen y etiquetas
+// Desde aquí puedes agregar, modificar o eliminar proyectos
+const PROJECTS = [
+  {
+    title: "MiniLink - Acortador de enlaces",
+    description:
+      "Puedes convertir URLs largas en enlaces cortos que son más fáciles de compartir, recordar y almacenar. Creada con Astro, React y TypeScript.",
+    link: "https://minilink.fly.dev/",
+    github: "https://github.com/spalominor/MiniLink",
+    image: "/minilink.webp",
+    tags: [TAGS.ASTRO, TAGS.REACT, TAGS.TYPESRCIPT],
+  },
+  {
+    title: "BuscaTuPelicula - Motor de búsqueda",
+    description:
+      "Puedes buscar entre más de 40.000 películas su descripción, calificación o año de lanzamiento. Hecho desde cero con Python, Pandas, Whoosh y Streamlit",
+    link: "https://buscatupelicula.streamlit.app/",
+    github: "https://github.com/spalominor/BuscaTuPelicula",
+    image: "/buscatupelicula.webp",
+    tags: [TAGS.PYTHON, TAGS.PANDAS, TAGS.STREAMLIT],
+  },
+  {
+    title: "Flutas - Gestor de vehículos y rutas",
+    description: 
+      "Puedes consultar y registrar información sobre tus vehículos y las rutas que hacen. Desarrollada con Django, Tailwind y otras librerías de Python.",
+    link: "https://flutas-3445099c748b.herokuapp.com/",
+    github: "https://github.com/spalominor/ppi_dai_PALOMINOs",
+    image: "/flutas.webp",
+    tags: [TAGS.DJANGO, TAGS.TAILWIND, TAGS.PYTHON]
+  }
+]
+---
+<!-- Mapear los proyectos y dibujar sus componentes por igual -->
+<div class="flex flex-col gap-y-16">
+  {
+    PROJECTS.map(({ image, title, description, tags, link, github }) => (
+    <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+  <div class="w-full md:w-1/2">
+    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+      <img alt="Image" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 md:max-w-lg">
+    <h3 class="text-2xl font-bold text-white-800 dark:text-gray">
+      {title}
+    </h3>
+    <div class="flex flex-wrap mt-2">
+      <ul class="flex flex-row mb-2 gap-x-2">
+          <!-- Mapear las etiquetas de cada proyecto y dibujarlas -->
+          {
+            tags.map((tag) => (
+              <li>
+                <span
+                  class={`flex gap-x-2 rounded-full text ${tag.class} py-1 px-2 `}
+                >
+                  <tag.icon class="size-4 flex" />
+                  {tag.name}
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+
+      {<!-- Dibujar los botones para GitHub y el proyecto -->}
+      <div class="mt-2 text-white-700 text dark:text-gray-400">{description}</div>
+      <footer class="flex items-end justify-start mt-4 gap-x-4">
+          {github && (
+            <LinkButton href={github}>
+              <GitHub class="size-6" />
+              Código
+              
+            </LinkButton>
+          )}
+          {link && (
+            <LinkButton href={link}>
+              <Link class="size-4" />
+              Proyecto
+            </LinkButton>
+          )}
+        </footer>
+    </div>
+  </div>
+</article>
+    ))
+  }
+</div>
+
+

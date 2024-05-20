@@ -1,0 +1,15 @@
+---
+// Definición de las propiedades que se recibirán en el componente
+const { class: className, id } = Astro.props
+---
+
+<!-- Seccionar todos los componentes para crear la barra de navegación -->
+<!-- Sección con clases y ID dinámicos -->
+<section
+  id={id} 
+  data-section={id}
+  class={`section ${className} scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl`}
+>
+  <!-- Contenido dinámico de la sección -->
+  <slot /> 
+</section>
